@@ -4,6 +4,7 @@ import "./App.css";
 import NavBar from "./components/NavBar/NavBar";
 import PriceOptions from "./components/PriceOptions/PriceOptions";
 import LineChart from "./components/LineChart/LineChart";
+import Phones from "./components/Phones/Phones";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -15,6 +16,7 @@ function App() {
       <h1 className="text-2xl">Vite + React</h1>
       <PriceOptions></PriceOptions>
       <LineChart></LineChart>
+      <Phones></Phones>
     </>
   );
 }
